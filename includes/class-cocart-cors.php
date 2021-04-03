@@ -39,6 +39,9 @@ final class CoCart_CORS {
 		// Update CoCart add-on counter upon deactivation.
 		register_deactivation_hook( COCART_CORS_FILE, array( __CLASS__, 'deactivate_addon' ) );
 
+		// Enables all cross origin headers.
+		add_filter( 'cocart_disable_all_cors', function() { return false; });
+
 		// Filters the session cookie to allow CoCart to work across multiple domains.
 		add_filter( 'cocart_cookie_samesite', function() {
 			return "None; Secure";
