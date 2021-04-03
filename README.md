@@ -26,7 +26,7 @@ You will need to be using CoCart Lite **v2.9.1** and up before installing this a
 
 Download the latest release and upload to your WordPress dashboard via the plugins page and then activate. That's it.
 
-CoCart will now work accross multiple domains.
+CoCart will now work across multiple domains.
 
 ## Bugs
 
