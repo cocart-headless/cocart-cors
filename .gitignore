@@ -26,3 +26,4 @@ Thumbs.db
 .gitconfig
 *.json
 *.yml
+*.sh
