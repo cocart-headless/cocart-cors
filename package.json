@@ -1,7 +1,7 @@
 {
 	"title": "CoCart CORS",
 	"name": "cocart-cors",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"contributors": [
 		"cocartforwc",
@@ -22,7 +22,7 @@
 	"requires_php": "7.0",
 	"tested_up_to": "5.7",
 	"wc_requires": "4.3",
-	"wc_tested_up_to": "5.1",
+	"wc_tested_up_to": "5.3",
 	"license": "GPL-3.0",
 	"copyright": "Copyright (c) 2021, Sébastien Dumont",
 	"description": "Simply filters the session cookie to allow CoCart to work across multiple domains.",
@@ -41,7 +41,11 @@
 		"cart",
 		"rest",
 		"rest-api",
-		"JSON"
+		"JSON",
+		"decoupled",
+		"headless",
+		"headless-wordpress",
+		"headless-woocommerce"
 	],
 	"scripts": {
 		"test": "grunt",
