@@ -5,13 +5,13 @@
  * Description: Simply filters the session cookie to allow CoCart to work across multiple domains.
  * Author:      Sébastien Dumont
  * Author URI:  https://sebastiendumont.com
- * Version:     1.0.0
+ * Version:     1.0.1
  * Text Domain: cocart-cors
  * Domain Path: /languages/
  * Requires at least: 5.4
- * Requires PHP: 7.0
+ * Requires PHP: 7.3
  * WC requires at least: 4.3
- * WC tested up to: 5.1
+ * WC tested up to: 6.3
  *
  * @package CoCart CORS
  */
