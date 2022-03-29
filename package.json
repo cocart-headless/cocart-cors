@@ -1,5 +1,5 @@
 {
-	"title": "CoCart CORS",
+	"title": "CoCart - CORS",
 	"name": "cocart-cors",
 	"version": "1.0.1",
 	"private": false,
@@ -19,12 +19,12 @@
 		"url": "https://github.com/co-cart/cocart-cors/issues"
 	},
 	"requires": "5.4",
-	"requires_php": "7.0",
-	"tested_up_to": "5.7",
+	"requires_php": "7.3",
+	"tested_up_to": "5.9",
 	"wc_requires": "4.3",
-	"wc_tested_up_to": "5.3",
+	"wc_tested_up_to": "6.3",
 	"license": "GPL-3.0",
-	"copyright": "Copyright (c) 2021, Sébastien Dumont",
+	"copyright": "Copyright (c) 2022, Sébastien Dumont",
 	"description": "Simply filters the session cookie to allow CoCart to work across multiple domains.",
 	"tags": "",
 	"keywords": [

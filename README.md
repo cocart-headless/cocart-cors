@@ -1,6 +1,6 @@
-<h1 align="center">CoCart - CORS <a href="https://github.com/co-cart/cocart-cors/releases/latest/"><img src="https://img.shields.io/static/v1?goVersion=&message=v1.0.0&label=&color=9a6fc4&style=flat-square"></a></h1>
+<h1 align="center">CoCart - CORS</h1>
 
-<p align="center">Simply filters the session cookie to allow CoCart to work across multiple domains.</p>
+<p align="center"><img src="https://cocart.xyz/wp-content/uploads/2021/11/cocart-home-default.png.webp" alt="CoCart Logo" /></p>
 
 <p align="center">
 	<a href="https://wordpress.org/" target="_blank">
@@ -14,9 +14,7 @@
 	</a>
 </p>
 
-<br>
-
-<p align="center"><img src="https://raw.githubusercontent.com/co-cart/co-cart/master/.github/Logo-1024x534.png.webp" alt="CoCart" /></p>
+<p align="center">Simply filters the session cookie to allow CoCart to work across multiple domains.</p>
 
 ## Requirement
 
