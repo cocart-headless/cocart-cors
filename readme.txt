@@ -3,8 +3,7 @@ Author URI: https://sebastiendumont.com
 Plugin URI: https://cocart.xyz
 Contributors: cocartforwc, sebd86
 Tags: woocommerce, cart, rest-api, decoupled, headless, cors
-Donate link: https://www.buymeacoffee.com/sebastien
-Requires at least: 5.4
+Requires at least: 5.6
 Requires PHP: 7.3
 Tested up to: 5.9
 Stable tag: 1.0.1
