@@ -1,7 +1,7 @@
 {
-	"title": "CoCart - CORS",
+	"title": "CoCart - CORS Support",
 	"name": "cocart-cors",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"private": false,
 	"contributors": [
 		"cocartforwc",
@@ -19,13 +19,13 @@
 		"url": "https://github.com/co-cart/cocart-cors/issues"
 	},
 	"requires": "5.6",
-	"requires_php": "7.3",
-	"tested_up_to": "5.9",
-	"wc_requires": "4.3",
-	"wc_tested_up_to": "6.3",
+	"requires_php": "7.4",
+	"tested_up_to": "6.0",
+	"wc_requires": "5.4",
+	"wc_tested_up_to": "6.7",
 	"license": "GPL-3.0",
 	"copyright": "Copyright (c) 2022, Sébastien Dumont",
-	"description": "Simply filters the session cookie to allow CoCart to work across multiple domains.",
+	"description": "Enables support for CORS to allow CoCart to work across multiple domains.",
 	"tags": "",
 	"keywords": [
 		"wordpress",

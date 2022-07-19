@@ -2,9 +2,10 @@
 /**
  * CoCart CORS core setup.
  *
- * @author   Sébastien Dumont
- * @category Package
- * @license  GPL-2.0+
+ * @author  Sébastien Dumont
+ * @package CoCart\CORS
+ * @since   1.0.0
+ * @license GPL-2.0+
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -22,14 +23,18 @@ final class CoCart_CORS {
 	 * Plugin Version
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
+	 * @var string
 	 */
-	public static $version = '1.0.1';
+	public static $version = '1.0.2';
 
 	/**
-	 * Initiate CoCart CORS.
+	 * Initiate CoCart - CORS.
 	 *
 	 * @access public
+	 *
 	 * @static
 	 */
 	public static function init() {
@@ -44,7 +49,11 @@ final class CoCart_CORS {
 
 		// Filters the session cookie to allow CoCart to work across multiple domains.
 		add_filter( 'cocart_cookie_samesite', function() {
-			return "None; Secure";
+			if ( is_ssl() ) {
+				return "None; Secure";
+			} else {
+				return "None";
+			}
 		});
 	} // END init()
 
@@ -52,34 +61,40 @@ final class CoCart_CORS {
 	 * Return the name of the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_name() {
-		return 'CoCart CORS';
-	}
+		return 'CoCart - CORS Support';
+	} // END get_name()
 
 	/**
 	 * Return the version of the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_version() {
 		return self::$version;
-	}
+	} // END get_version()
 
 	/**
 	 * Return the path to the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_path() {
 		return dirname( __DIR__ );
-	}
+	} // END get_path()
 
 	/**
 	 * Runs when the plugin is activated.
@@ -87,6 +102,8 @@ final class CoCart_CORS {
 	 * Adds plugin to list of installed CoCart add-ons.
 	 *
 	 * @access public
+	 *
+	 * @static
 	 */
 	public static function activate_addon() {
 		$addons_installed = get_option( 'cocart_addons_installed', array() );
@@ -106,6 +123,8 @@ final class CoCart_CORS {
 	 * Removes plugin from list of installed CoCart add-ons.
 	 *
 	 * @access public
+	 *
+	 * @static
 	 */
 	public static function deactivate_addon() {
 		$addons_installed = get_option( 'cocart_addons_installed', array() );

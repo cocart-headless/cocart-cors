@@ -4,17 +4,17 @@
 
 <p align="center">
 	<a href="https://wordpress.org/" target="_blank">
-		<img src="https://img.shields.io/static/v1?label=&message=5.6+-+5.9&color=blue&style=flat-square&logo=wordpress&logoColor=white" alt="WordPress Versions">
+		<img src="https://img.shields.io/static/v1?label=&message=5.6+-+6.0&color=blue&style=flat-square&logo=wordpress&logoColor=white" alt="WordPress Versions">
 	</a>
 	<a href="https://woocommerce.com/" target="_blank">
-		<img src="https://img.shields.io/static/v1?label=&message=4.3+-+6.3&color=96588A&style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce Versions">
+		<img src="https://img.shields.io/static/v1?label=&message=5.4+-+6.7&color=96588A&style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce Versions">
 	</a>
 	<a href="https://www.php.net/" target="_blank">
-		<img src="https://img.shields.io/static/v1?label=&message=7.3+-+8.0&color=777bb4&style=flat-square&logo=php&logoColor=white" alt="PHP Versions">
+		<img src="https://img.shields.io/static/v1?label=&message=7.4+-+8.0&color=777bb4&style=flat-square&logo=php&logoColor=white" alt="PHP Versions">
 	</a>
 </p>
 
-<p align="center">Simply filters the session cookie to allow CoCart to work across multiple domains.</p>
+<p align="center">Enables support for CORS to allow CoCart to work across multiple domains.</p>
 
 ## Requirement
 

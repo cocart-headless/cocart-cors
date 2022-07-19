@@ -1,22 +1,24 @@
-=== CoCart - CORS === 
+=== CoCart - CORS Support === 
 Author URI: https://sebastiendumont.com
 Plugin URI: https://cocart.xyz
 Contributors: cocartforwc, sebd86
 Tags: woocommerce, cart, rest-api, decoupled, headless, cors
 Requires at least: 5.6
-Requires PHP: 7.3
-Tested up to: 5.9
-Stable tag: 1.0.1
-WC requires at least: 4.3
-WC tested up to: 6.3
+Requires PHP: 7.4
+Tested up to: 6.0
+Stable tag: 1.0.2
+WC requires at least: 5.4
+WC tested up to: 6.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Simply filters the session cookie to allow CoCart to work across multiple domains.
+Enables support for CORS to allow CoCart to work across multiple domains.
 
 == Description ==
 
-This free add-on for [CoCart](https://wordpress.org/plugins/cart-rest-api-for-woocommerce/) simply filters the session cookie to allow CoCart to work across multiple domains.
+This free add-on for [CoCart](https://wordpress.org/plugins/cart-rest-api-for-woocommerce/) enables support for CORS to allow CoCart to work across multiple domains.
+
+Simply install and activate. **No configuration required!**
 
 ## Tools and Libraries
 
@@ -44,7 +46,7 @@ A Slack community for developers, WordPress agencies and shop owners building th
 
 ### Bug reports
 
-Bug reports for CoCart - CORS are welcomed in the [CoCart - CORS repository on GitHub](https://github.com/co-cart/cocart-cors/issues). Please note that GitHub is not a support forum, and that issues that aren’t properly qualified as bugs will be closed.
+Bug reports for CoCart - CORS Support are welcomed in the [CoCart - CORS repository on GitHub](https://github.com/co-cart/cocart-cors/issues). Please note that GitHub is not a support forum, and that issues that aren’t properly qualified as bugs will be closed.
 
 ### More information
 
@@ -61,11 +63,20 @@ This plugin is created by [Sébastien Dumont](https://sebastiendumont.com).
 
 = Minimum Requirements =
 
-You will need CoCart v2.9.1 or above.
+* WordPress v5.6
+* WooCommerce v4.3
+* PHP v7.3
+* CoCart v2.9.1
+
+= Recommended Requirements =
+
+* WordPress v5.8 or higher.
+* WooCommerce v5.4 or higher.
+* PHP v7.4
 
 = Automatic installation =
 
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of CoCart - CORS, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of CoCart - CORS Support, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
 
 In the search field type "CoCart" and click Search Plugins. Once you’ve found the plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking "Install Now".
 

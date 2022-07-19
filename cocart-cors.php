@@ -1,17 +1,17 @@
 <?php
 /*
- * Plugin Name: CoCart CORS
+ * Plugin Name: CoCart - CORS Support
  * Plugin URI:  https://cocart.xyz
- * Description: Simply filters the session cookie to allow CoCart to work across multiple domains.
+ * Description: Enables support for CORS to allow CoCart to work across multiple domains.
  * Author:      Sébastien Dumont
  * Author URI:  https://sebastiendumont.com
- * Version:     1.0.1
+ * Version:     1.0.2
  * Text Domain: cocart-cors
  * Domain Path: /languages/
  * Requires at least: 5.6
- * Requires PHP: 7.3
- * WC requires at least: 4.3
- * WC tested up to: 6.3
+ * Requires PHP: 7.4
+ * WC requires at least: 5.4
+ * WC tested up to: 6.7
  *
  * @package CoCart CORS
  */
