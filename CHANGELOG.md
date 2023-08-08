@@ -1,8 +1,25 @@
 # Changelog for CoCart CORS
 
+## v1.0.3 - 8th August, 2023
+
+### What's Changed?
+
+* Removed WooCommerce plugin headers to prevent incompatibility warning message when using "HPOS" feature.
+
+### Compatibility
+
+* Ready for CoCart v4 ✔️
+* Tested with WooCommerce v7.9 ✔️
+* Tested with WordPress v6.3 ✔️
+
 ## v1.0.2 - 19th July, 2022
 
+### What's Changed?
+
 * Tweak: Made sure the session cookie is only filtered if the WordPress site is secure.
+
+### Compatibility
+
 * Tested with CoCart v3.7 and up ✔️
 * Tested with WooCommerce v6.7 ✔️
 * Tested with WordPress v6.0 ✔️

@@ -1,16 +1,9 @@
 <?php
-/*
- * Plugin Name: CoCart - CORS Support
- * Plugin URI:  https://cocart.xyz
- * Description: Enables support for CORS to allow CoCart to work across multiple domains.
- * Author:      Sébastien Dumont
- * Author URI:  https://sebastiendumont.com
- * Version:     1.0.3
- * Text Domain: cocart-cors
- * Requires at least: 5.6
- * Requires PHP: 7.4
+/**
+ * This file is designed to be used to load as package NOT a WP plugin!
  *
- * @package CoCart CORS
+ * @version 1.0.3
+ * @package CoCart Cors
  */
 
 defined( 'ABSPATH' ) || exit;
