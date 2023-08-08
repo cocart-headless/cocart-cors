@@ -12,6 +12,7 @@ npm-debug.log
 Thumbs.db
 
 # Composer
+/composer.lock
 /vendor/
 
 # Languages
