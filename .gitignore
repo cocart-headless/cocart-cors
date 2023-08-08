@@ -21,9 +21,3 @@ Thumbs.db
 # Build & Releases
 /build/
 /releases/
-
-# Various file types to ignore when exporting.
-.gitconfig
-*.json
-*.yml
-*.sh
