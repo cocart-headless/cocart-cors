@@ -78,7 +78,7 @@ This plugin is created by [Sébastien Dumont](https://sebastiendumont.com).
 
 * WordPress v6.0 or higher.
 * WooCommerce v7.0 or higher.
-* PHP v8.0
+* PHP v8.0 or higher.
 
 = Automatic installation =
 
