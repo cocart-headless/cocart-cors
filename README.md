@@ -45,16 +45,15 @@ We have different channels at your disposal where you can find information about
 
 ## Credits
 
-CoCart CORS is developed and maintained by [Sébastien Dumont](https://github.com/seb86).
-
-Founder of CoCart - [Sébastien Dumont](https://github.com/seb86).
+Website [cocart.xyz](https://cocart.xyz) &nbsp;&middot;&nbsp;
+GitHub [@co-cart](https://github.com/co-cart) &nbsp;&middot;&nbsp;
+Twitter [@cocartapi](https://twitter.com/cocartapi)
 
 ---
+
+CoCart CORS is developed and maintained by [Sébastien Dumont](https://github.com/seb86).
+Founder of [CoCart Headless, LLC](https://github.com/cocart-headless).
 
 Website [sebastiendumont.com](https://sebastiendumont.com) &nbsp;&middot;&nbsp;
 GitHub [@seb86](https://github.com/seb86) &nbsp;&middot;&nbsp;
 Twitter [@sebd86](https://twitter.com/sebd86)
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/seb86/my-open-source-readme-template/master/a-sebastien-dumont-production.png" width="353">
-</p>
