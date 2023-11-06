@@ -8,23 +8,6 @@ module.exports = function(grunt) {
 		{
 			pkg: grunt.file.readJSON( 'package.json' ),
 
-			// Update developer dependencies
-			devUpdate: {
-				packages: {
-					options: {
-						packageJson: null,
-						packages: {
-							devDependencies: true,
-							dependencies: false
-						},
-						reportOnlyPkgs: [],
-						reportUpdated: false,
-						semver: true,
-						updateType: 'force'
-					}
-				}
-			},
-
 			// Bump version numbers (replace with version in package.json)
 			replace: {
 				php: {
@@ -168,12 +151,6 @@ module.exports = function(grunt) {
 			}
 		}
 	);
-
-	// Set the default grunt command.
-	grunt.registerTask( 'default', [ 'check' ] );
-
-	// Checks for developer dependencies updates.
-	grunt.registerTask( 'check', [ 'devUpdate' ] );
 
 	// Update version of plugin.
 	grunt.registerTask( 'version', [ 'replace:php', 'replace:readme' ] );

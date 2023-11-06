@@ -6,9 +6,7 @@ Tags: woocommerce, cart, rest-api, decoupled, headless, cors
 Requires at least: 5.6
 Requires PHP: 7.4
 Tested up to: 6.3
-Stable tag: 1.0.3
-WC requires at least: 6.3
-WC tested up to: 7.9
+Stable tag: 1.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,11 +23,10 @@ Simply install and activate. **No configuration required!**
 
 ## 🧰 Tools and Libraries
 
-* **[CoCart Beta Tester](https://github.com/co-cart/cocart-beta-tester)** allows you to easily update to prerelease versions of CoCart Lite for testing and development purposes.
-* **[CoCart VSCode](https://github.com/co-cart/cocart-vscode)** extension for Visual Studio Code adds snippets and autocompletion of functions, classes and hooks.
-* **[CoCart Product Support Boilerplate](https://github.com/co-cart/cocart-product-support-boilerplate)** provides a basic boilerplate for supporting a different product types to add to the cart with validation including adding your own parameters.
-* **[CoCart Cart Callback Example](https://github.com/co-cart/cocart-cart-callback-example)** provides you an example of registering a callback that can be triggered when updating the cart.
-* **[CoCart Tweaks](https://github.com/co-cart/co-cart-tweaks)** provides a starting point for developers to tweak CoCart to their needs.
+* **[CoCart Beta Tester](https://github.com/cocart-headless/cocart-beta-tester)** allows you to easily update to pre-release versions of CoCart Lite for testing and development purposes.
+* **[CoCart VSCode](https://github.com/cocart-headless/cocart-vscode)** extension for Visual Studio Code adds snippets and autocompletion of functions, classes and hooks.
+* **[CoCart Product Support Boilerplate](https://github.com/cocart-headless/cocart-product-support-boilerplate)** provides a basic boilerplate for supporting a different product types to add to the cart with validation including adding your own parameters.
+* **[CoCart Cart Callback Example](https://github.com/cocart-headless/cocart-cart-callback-example)** provides you an example of registering a callback that can be triggered when updating the cart.
 
 ★★★★★
 > Amazing Plugin. I’m using it to create a react-native app with WooCommerce as back-end. This plugin is a life-saver! [Daniel Loureiro](https://wordpress.org/support/topic/amazing-plugin-1562/)
@@ -52,18 +49,19 @@ A Discord community for developers, WordPress agencies and shop owners building 
 
 ### 🐞 Bug reports
 
-Bug reports for CoCart - CORS Support are welcomed in the [CoCart - CORS repository on GitHub](https://github.com/co-cart/cocart-cors/issues). Please note that GitHub is not a support forum, and that issues that aren’t properly qualified as bugs will be closed.
+Bug reports for CoCart - CORS Support are welcomed in the [CoCart - CORS repository on GitHub](https://github.com/cocart-headless/cocart-cors/issues). Please note that GitHub is not a support forum, and that issues that aren’t properly qualified as bugs will be closed.
 
 ### More information
 
 * The [CoCart plugin](https://cocart.xyz/?utm_medium=wp.org&utm_source=wordpressorg&utm_campaign=readme&utm_content=cocart) official website.
 * The CoCart [Documentation](https://docs.cocart.xyz/)
 * [Subscribe to updates](http://eepurl.com/dKIYXE)
-* Like, Follow and Star on [Facebook](https://www.facebook.com/cocartforwc/), [Twitter](https://twitter.com/cocartapi), [Instagram](https://www.instagram.com/co_cart/) and [GitHub](https://github.com/co-cart/co-cart)
+* Like, Follow and Star on [Facebook](https://www.facebook.com/cocartforwc/), [Twitter](https://twitter.com/cocartapi), [Instagram](https://www.instagram.com/co_cart/) and [GitHub](https://github.com/cocart-headless/)
 
 #### 💯 Credits
 
 This plugin is created by [Sébastien Dumont](https://sebastiendumont.com).
+Founder of CoCart Headless, LLC
 
 == Installation ==
 
@@ -96,4 +94,4 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 == Changelog ==
 
-[View the full changelog here](https://github.com/co-cart/cocart-cors/blob/master/CHANGELOG.md).
+[View the full changelog here](https://github.com/cocart-headless/cocart-cors/blob/master/CHANGELOG.md).
