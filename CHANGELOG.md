@@ -1,5 +1,15 @@
 # Changelog for CoCart CORS
 
+## v1.0.4 - 6th November, 2023
+
+### What's Changed?
+
+* Initiating the plugin on `plugins_loaded` hook instead of `cocart_init` hook. Fixes [#20](https://github.com/co-cart/cocart-cors/issues/20)
+
+### Compatibility
+
+* Tested with WooCommerce v8.3 ✔️
+
 ## v1.0.3 - 8th August, 2023
 
 ### What's Changed?

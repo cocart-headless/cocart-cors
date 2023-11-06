@@ -2,7 +2,7 @@
 /**
  * This file is designed to be used to load as package NOT a WP plugin!
  *
- * @version 1.0.3
+ * @version 1.0.4
  * @package CoCart Cors
  */
 
@@ -31,5 +31,5 @@ if ( ! function_exists( 'cocart_cors' ) ) {
 		return \CoCart\Cors\Plugin::init();
 	}
 
-	add_action( 'cocart_init', 'cocart_cors', 0 );
+	add_action( 'plugins_loaded', 'cocart_cors', 0 );
 }
