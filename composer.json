@@ -1,7 +1,7 @@
 {
-	"name": "co-cart/cocart-cors",
+	"name": "cocart-headless/cocart-cors",
 	"description": "CORS Support for CoCart.",
-	"homepage": "https://cocart.xyz",
+	"homepage": "https://cocartapi.com",
 	"type": "wordpress-plugin",
 	"keywords": [
 		"wordpress",
@@ -37,7 +37,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/co-cart/cocart-cors/issues"
+		"issues": "https://github.com/cocart-headless/cocart-cors/issues"
 	},
 	"autoload": {
 		"classmap": [

@@ -1,10 +1,14 @@
 # Changelog for CoCart CORS
 
+## v1.0.5 - 3rd January, 2024
+
+* Fixed fatal error if the version of CoCart is undefined because the main plugin is not found.
+
 ## v1.0.4 - 6th November, 2023
 
 ### What's Changed?
 
-* Initiating the plugin on `plugins_loaded` hook instead of `cocart_init` hook. Fixes [#20](https://github.com/co-cart/cocart-cors/issues/20)
+* Initiating the plugin on `plugins_loaded` hook instead of `cocart_init` hook. Fixes [#20](https://github.com/cocart-headless/cocart-cors/issues/20)
 
 ### Compatibility
 

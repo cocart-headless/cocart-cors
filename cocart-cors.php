@@ -1,11 +1,11 @@
 <?php
 /*
- * Plugin Name: CoCart - CORS Support
- * Plugin URI:  https://cocart.xyz
+ * Plugin Name: CoCart CORS Support
+ * Plugin URI:  https://cocartapi.com
  * Description: Enables support for CORS to allow CoCart to work across multiple domains.
- * Author:      Sébastien Dumont
- * Author URI:  https://sebastiendumont.com
- * Version:     1.0.4
+ * Author:      CoCart Headless, LLC
+ * Author URI:  https://cocartapi.com
+ * Version:     1.0.5
  * Text Domain: cocart-cors
  * Requires at least: 5.6
  * Requires PHP: 7.4

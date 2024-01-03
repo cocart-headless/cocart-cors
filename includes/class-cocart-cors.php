@@ -29,10 +29,10 @@ final class Plugin {
 	 *
 	 * @var string
 	 */
-	public static $version = '1.0.4';
+	public static $version = '1.0.5';
 
 	/**
-	 * Initiate CoCart - CORS.
+	 * Initiate CoCart CORS.
 	 *
 	 * @access public
 	 *
@@ -45,7 +45,7 @@ final class Plugin {
 		} );
 
 		// Filters the session cookie to allow CoCart to work across multiple domains.
-		if ( version_compare( \COCART_VERSION, '4.0.0', '<' ) ) {
+		if ( defined( 'COCART_VERSION' ) && version_compare( COCART_VERSION, '4.0.0', '<' ) ) {
 			add_filter( 'cocart_cookie_samesite', function() {
 				if ( is_ssl() ) {
 					return 'None; Secure';
@@ -66,7 +66,7 @@ final class Plugin {
 	 * @return string
 	 */
 	public static function get_name() {
-		return 'CoCart - CORS Support';
+		return 'CoCart CORS Support';
 	} // END get_name()
 
 	/**
