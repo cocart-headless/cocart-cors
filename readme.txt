@@ -1,9 +1,9 @@
 === CoCart CORS Support === 
 Contributors: cocartforwc, sebd86
-Tags: woocommerce, cart, rest-api, decoupled, headless, cors
+Tags: woocommerce, rest-api, decoupled, headless, cors
 Requires at least: 5.6
 Requires PHP: 7.4
-Tested up to: 6.4
+Tested up to: 6.5
 Stable tag: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -19,7 +19,7 @@ Simply install and activate. **No configuration required!**
 ★★★★★
 > An excellent plugin, which makes building a headless WooCommerce experience a breeze. Easy to use, nearly zero setup time. [Harald Schneider](https://wordpress.org/support/topic/excellent-plugin-8062/)
 
-## 🧰 Tools and Libraries
+## 🧰 Developer Tools
 
 * **[CoCart Beta Tester](https://github.com/cocart-headless/cocart-beta-tester)** allows you to easily update to pre-release versions of CoCart Lite for testing and development purposes.
 * **[CoCart VSCode](https://github.com/cocart-headless/cocart-vscode)** extension for Visual Studio Code adds snippets and autocompletion of functions, classes and hooks.
@@ -34,8 +34,9 @@ Simply install and activate. **No configuration required!**
 We also have other add-ons that extend CoCart to enhance your development and your customers shopping experience.
 
 * **[CoCart - Cart Enhanced](https://wordpress.org/plugins/cocart-get-cart-enhanced/)** enhances the data returned for the cart and the items added to it.
-* **[CoCart - JWT Authentication](https://wordpress.org/plugins/cocart-cors/)** provides JWT authentication for CoCart.
+* **[CoCart - JWT Authentication](https://wordpress.org/plugins/cocart-jwt-authentication/)** allows you to authenticate via a simple JWT Token.
 * **[CoCart - Rate Limiting](https://wordpress.org/plugins/cocart-rate-limiting/)** enables the rate limiting feature.
+* and more add-ons in development.
 
 They work with the core of CoCart already, and these add-ons of course come with support too.
 
@@ -69,7 +70,7 @@ Founder of [CoCart Headless, LLC](https://twitter.com/cocartheadless).
 * WordPress v5.6
 * WooCommerce v6.3
 * PHP v7.4
-* CoCart v2.9.1
+* CoCart v2.9.1 or higher.
 
 = Recommended Requirements =
 

@@ -6,6 +6,8 @@
 
 	<!-- Exclude paths -->
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>Gruntfile.js</exclude-pattern>
 
 	<!-- Show progress, show the error codes for each message (source). -->
 	<arg value="ps" />
@@ -17,7 +19,7 @@
 	<arg name="parallel" value="8" />
 
 	<!-- Configs -->
-	<config name="minimum_supported_wp_version" value="5.5" />
+	<config name="minimum_supported_wp_version" value="5.6" />
 	<config name="testVersion" value="7.0-" />
 
 	<!-- Rules -->
@@ -36,8 +38,19 @@
 		<exclude-pattern>languages/</exclude-pattern>
 	</rule>
 
+	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
+		<exclude-pattern>includes/*.php</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.PHP.StrictInArray.MissingTrueStrict">
+		<severity>0</severity>
+	</rule>
+
+	<rule ref="Generic.Classes.DuplicateClassName.Found">
+		<severity>0</severity>
+	</rule>
+
 	<rule ref="PHPCompatibility">
-		<include-pattern>*\.php$</include-pattern>
 		<exclude-pattern>tests/</exclude-pattern>
 	</rule>
 </ruleset>

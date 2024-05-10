@@ -1,6 +1,13 @@
 <h1 align="center">CoCart CORS</h1>
 
-<p align="center"><img src="https://cocart.xyz/wp-content/uploads/2021/11/cocart-home-default.png.webp" alt="CoCart Logo" /></p>
+<p align="center">
+	<a href="https://github.com/cocart-headless/cocart-cors/blob/master/LICENSE.md" target="_blank">
+		<img src="https://img.shields.io/badge/license-GPL--3.0%2B-red.svg" alt="Licence">
+	</a>
+	<a href="https://wordpress.org/plugins/cocart-cors/">
+		<img src="https://img.shields.io/wordpress/plugin/dt/cocart-cors.svg" alt="WordPress Plugin Downloads">
+	</a>
+</p>
 
 <p align="center">Enables support for CORS to allow CoCart to work across multiple domains.</p>
 
@@ -17,12 +24,6 @@ CoCart will now work across multiple domains.
 ## Bugs
 
 If you find an issue, please [report the issue](https://github.com/cocart-headless/cocart-cors/issues/new). Thank you.
-
-## License
-
-[![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/cocart-headless/cocart-cors/blob/master/LICENSE.md)
-
-Released under [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
 
 ---
 
@@ -42,6 +43,12 @@ We have different channels at your disposal where you can find information about
 </ul>
 
 ---
+
+## License
+
+[![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/cocart-headless/cocart-cors/blob/master/LICENSE.md)
+
+Released under [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
 
 ## Credits
 

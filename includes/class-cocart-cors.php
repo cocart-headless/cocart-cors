@@ -2,9 +2,9 @@
 /**
  * CoCart CORS core setup.
  *
- * @author   Sébastien Dumont
- * @category Package
- * @license  GPL-2.0+
+ * @author  Sébastien Dumont
+ * @package CoCart CORS
+ * @license GPL-2.0+
  */
 
 namespace CoCart\Cors;
@@ -29,7 +29,7 @@ final class Plugin {
 	 *
 	 * @var string
 	 */
-	public static $version = '1.0.5';
+	public static $version = '1.0.6';
 
 	/**
 	 * Initiate CoCart CORS.
@@ -40,13 +40,13 @@ final class Plugin {
 	 */
 	public static function init() {
 		// Enables all cross origin headers.
-		add_filter( 'cocart_disable_all_cors', function() {
+		add_filter( 'cocart_disable_all_cors', function () {
 			return false;
 		} );
 
 		// Filters the session cookie to allow CoCart to work across multiple domains.
-		if ( defined( 'COCART_VERSION' ) && version_compare( COCART_VERSION, '4.0.0', '<' ) ) {
-			add_filter( 'cocart_cookie_samesite', function() {
+		if ( defined( 'COCART_VERSION' ) && version_compare( COCART_VERSION, '5.0.0', '<' ) ) {
+			add_filter( 'cocart_cookie_samesite', function () {
 				if ( is_ssl() ) {
 					return 'None; Secure';
 				} else {
@@ -94,5 +94,4 @@ final class Plugin {
 	public static function get_path() {
 		return dirname( __DIR__ );
 	} // END get_path()
-
 } // END class
