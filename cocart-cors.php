@@ -5,11 +5,13 @@
  * Description: Enables support for CORS to allow CoCart API to work across multiple domains.
  * Author:      CoCart Headless, LLC
  * Author URI:  https://cocartapi.com
- * Version:     1.0.6
+ * Version:     1.0.7
  * Text Domain: cocart-cors
  * Requires at least: 5.6
  * Requires PHP: 7.4
  * Requires Plugins: cart-rest-api-for-woocommerce
+ * CoCart requires at least: 4.2
+ * CoCart tested up to: 4.3
  *
  * @package CoCart CORS
  */

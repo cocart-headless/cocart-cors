@@ -38,6 +38,14 @@ module.exports = function(grunt) {
 							to: "WC tested up to: <%= pkg.wc_tested_up_to %>"
 						},
 						{
+							from: /CoCart requires at least:.*$/m,
+							to: 'CoCart requires at least: <%= pkg.cocart_requires %>'
+						},
+						{
+							from: /CoCart tested up to:.*$/m,
+							to: 'CoCart tested up to: <%= pkg.cocart_tested_up_to %>'
+						},
+						{
 							from: /Version:.*$/m,
 							to: "Version:     <%= pkg.version %>"
 						},
@@ -76,14 +84,6 @@ module.exports = function(grunt) {
 						{
 							from: /Tested up to:(\*\*|)(\s*?)[0-9.-]+(\s*?)$/mi,
 							to: 'Tested up to:$1$2<%= pkg.tested_up_to %>$3'
-						},
-						{
-							from: /WC requires at least:(\*\*|)(\s*?)[0-9.-]+(\s*?)$/mi,
-							to: 'WC requires at least:$1$2<%= pkg.wc_requires %>$3'
-						},
-						{
-							from: /WC tested up to:(\*\*|)(\s*?)[a-zA-Z0-9.-]+(\s*?)$/mi,
-							to: 'WC tested up to:$1$2<%= pkg.wc_tested_up_to %>$3'
 						},
 					]
 				},
@@ -163,4 +163,11 @@ module.exports = function(grunt) {
 	 * and install on a WordPress installation.
 	 */
 	grunt.registerTask( 'zip', [ 'copy:build', 'compress', 'clean:build' ] );
+
+	// Build Plugin.
+	grunt.registerTask( 'build', [ 'version', 'zip' ] );
+
+	// Ready for release.
+	grunt.registerTask( 'ready', [ 'version', 'stable', 'zip' ] );
+
 };

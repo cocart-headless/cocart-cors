@@ -29,7 +29,7 @@ final class Plugin {
 	 *
 	 * @var string
 	 */
-	public static $version = '1.0.6';
+	public static $version = '1.0.7';
 
 	/**
 	 * Initiate CoCart CORS.
