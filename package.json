@@ -20,7 +20,7 @@
 	},
 	"requires": "5.6",
 	"requires_php": "7.4",
-	"tested_up_to": "6.5",
+	"tested_up_to": "6.6",
 	"wc_requires": "6.4",
 	"wc_tested_up_to": "9.1",
 	"cocart_requires": "4.2",

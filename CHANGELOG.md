@@ -1,5 +1,12 @@
 # Changelog for CoCart CORS
 
+## v1.0.7 - 26th July, 2024
+
+### Compatibility
+
+* Tested with WooCommerce v9.1
+* Tested with WordPress v6.6
+
 ## v1.0.6 - 10th May, 2024
 
 ### Compatibility
