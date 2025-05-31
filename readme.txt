@@ -54,7 +54,7 @@ Bug reports for CoCart CORS Support are welcomed in the [CoCart CORS repository 
 
 * The official [CoCart API plugin](https://cocartapi.com/?utm_medium=website&utm_source=wpplugindirectory&utm_campaign=readme&utm_content=readmelink) website.
 * [CoCart for Developers](https://cocart.dev/?utm_medium=website&utm_source=wpplugindirectory&utm_campaign=readme&utm_content=readmelink), an official hub for resources you need to be productive with CoCart and keep track of everything that is happening with the API.
-* The CoCart [Documentation](https://docs.cocart.xyz/)
+* The CoCart [Documentation](https://cocartapi.com/docs/?utm_medium=website&utm_source=wpplugindirectory&utm_campaign=readme&utm_content=readmelink)
 * [Subscribe to updates](http://eepurl.com/dKIYXE)
 * Like, Follow and Star on [Facebook](https://www.facebook.com/cocartforwc/), [Twitter](https://twitter.com/cocartapi), [Instagram](https://www.instagram.com/cocartheadless/) and [GitHub](https://github.com/co-cart/co-cart)
 
